@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { SnippetService } from "../services/SnippetServices.ts";
+import { SnippetService } from "../services/snippetServices.ts";
 import { Snippet } from "../generated/prisma/browser.ts";
 
 const handleResponse = (
