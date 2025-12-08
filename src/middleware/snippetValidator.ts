@@ -8,4 +8,10 @@ export const createSnippetValidator = [
   body("language")
     .notEmpty()
     .withMessage("Language is required"),
+  
+  body("theme")
+    .notEmpty()
+    .withMessage("theme is required"),
+  
+
 ];
