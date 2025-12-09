@@ -1,7 +1,7 @@
 {
   "watch": ["src"],
   "ext": "ts,json",
-  "exec": "node --loader ts-node/esm",
+  "exec": "node --import tsx/esm",
   "env": {
     "NODE_ENV": "development"
   }
