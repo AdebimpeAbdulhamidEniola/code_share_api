@@ -30,5 +30,7 @@ app.use(errorHandling)
 
 app.listen(port , () => {
     console.log(`Server is running at http://localhost:${port}`)
+    console.log('The databaseUrl is', process.env.DATABASE_URL)
+    
 })
 

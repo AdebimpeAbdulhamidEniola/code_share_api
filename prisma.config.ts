@@ -9,7 +9,7 @@ const user = process.env.user || "postgres";
 const password = process.env.password || "";
 const database = process.env.database || "";
 
-const databaseUrl = process.env.DATABASE_URL || ""
+const databaseUrl = (process.env.DATABASE_URL) as string 
 
 export default defineConfig({
   schema: "prisma/schema.prisma",
